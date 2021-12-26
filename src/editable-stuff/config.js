@@ -111,6 +111,7 @@ const skills = {
     { name: "Problem Solving", value: 75 },
     { name: "Critical Thinking", value: 80 },
     { name: "Accountability", value: 90 },
+    { name: "Analytical Reasoning", value: 75 }
   ],
 };
 
