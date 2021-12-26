@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Anshul",
   middleName: "",
   lastName: "Shalia",
-  message: " Technology Enthusiast and quick learner ",
+  message: " Technology enthusiast and quick learner ",
   icons: [
     {
       image: "fa-github",
@@ -50,7 +50,7 @@ const about = {
   imageLink: require("../editable-stuff/anshul.jpg"),
   imageSize: 375,
   message:
-    "I’m Anshul Shalia, a 2020 Graduate from NIT Bhopal in Computer Science and Engineering. I work as a Software Developer with experience in C, C++, Java, Springboot, Jenkins, Teamcity, JGit, Maven, Splunk, HTML, CSS. I'm a cycling enthusiast, singer and passionate about bringing out innovation with technology.",
+    "I’m Anshul Shalia, a 2020 graduate from NIT Bhopal in Computer Science and Engineering. I work as a Software Developer with experience in C, C++, Java, Springboot, Jenkins, Groovy, Teamcity, OpenShift, JGit, Maven, Splunk, HTML, CSS. I'm a cycling enthusiast, singer and passionate about bringing out innovation with technology.",
   resume: "https://drive.google.com/file/d/1QDuWU0bDaxUg2g6QE8QyU6hGeWYrd0yq/view?usp=sharing",
 };
 
@@ -60,7 +60,7 @@ const about = {
 // If you want to display specfic projects, add the repository names,
 //      i.e ["repository-1", "repo-2"]
 const repos = {
-  show: true,
+  show: false,
   heading: "Recent Projects",
   gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
   reposLength: 4,
@@ -101,12 +101,11 @@ const skills = {
     { name: "Data Structures", value: 80 },
     { name: "C/C++", value: 80 },
     { name: "OpenShift", value: 70 },
-    { name: "Teamcity", value: 60 },
+    { name: "TeamCity", value: 60 },
     { name: "HTML/CSS", value: 60 },
     { name: "Jenkins Pipeline as Code", value: 80 },
   ],
   softSkills: [
-    { name: "Goal-Oriented", value: 80 },
     { name: "Collaboration", value: 90 },
     { name: "Adaptability", value: 85 },
     { name: "Problem Solving", value: 75 },
@@ -120,24 +119,19 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "Please feel free to email at",
-  email: "anshulshalia@gmail.com",
+    "For collaboration and opportunities please feel free to email at",
+  email: "anshulshalia@gmail.com"
 };
 
 const experiences = {
-  show: false,
-  heading: "Experiences",
+  show: true,
+  heading: "Experience",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
-    },
-    {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
-    },
+      role: 'Technology Analyst (Associate Software Engineer)',
+      companylogo: require('../assets/img/dblogo.jpg'),
+      date: 'August 2020 – Present'
+    }
   ]
 }
 
