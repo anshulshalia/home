@@ -50,7 +50,7 @@ const about = {
   imageLink: require("../editable-stuff/anshul.jpg"),
   imageSize: 375,
   message:
-    "I’m Anshul Shalia, a 2020 graduate from NIT Bhopal in Computer Science and Engineering. I work as a Software Developer with experience in C, C++, Java, Springboot, Jenkins, Groovy, Teamcity, OpenShift, JGit, Maven, Splunk, HTML, CSS. I'm a cycling enthusiast, singer and passionate about bringing out innovation with technology.",
+    "I’m Anshul Shalia, working as MTS at Oracle. As a Software Engineer I have experience in C, C++, Java, Springboot, Jenkins, Groovy, Teamcity, OpenShift, JGit, Maven, Splunk, HTML, CSS. I'm a cycling enthusiast, singer and passionate about bringing out innovation with technology.",
   resume: "https://drive.google.com/file/d/1QDuWU0bDaxUg2g6QE8QyU6hGeWYrd0yq/view?usp=sharing",
 };
 
@@ -129,9 +129,14 @@ const experiences = {
   heading: "Experience",
   data: [
     {
+     role: 'Member Technical Staff',
+     companylogo: require('../assets/img/oracle_logo.png'),
+     date: 'May 2022 – Present'
+    },
+    {
       role: 'Technology Analyst (Associate Software Engineer)',
       companylogo: require('../assets/img/dblogo.jpg'),
-      date: 'August 2020 – Present'
+      date: 'August 2020 – April 2022'
     }
   ]
 }
